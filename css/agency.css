@@ -18,9 +18,17 @@ p {
 a {
     color: #fed136;
 }
-
 a:hover {
     color: #fec503;
+}
+
+.ux-ui {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.header-ui {
+    margin-top: 15%;
 }
 
 .text-primary {
@@ -101,14 +109,14 @@ img::-moz-selection {
 }
 
 .btn-primary {
-    background-color: #fed136;
-    border-color: #fed136;
+    background-color: #fc6900;
+    border-color: #fc6900;
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-    background-color: #fec810 !important;
+    background-color: #fc6900 !important;
     border-color: #fec810 !important;
     color: white;
 }
