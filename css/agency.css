@@ -265,6 +265,11 @@ header.masthead .intro-text .intro-heading {
     text-transform: none;
 }
 
+.port-img {
+    height: 217.5px;
+    width: 300px;
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
