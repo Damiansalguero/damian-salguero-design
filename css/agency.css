@@ -271,8 +271,13 @@ header.masthead .intro-text .intro-heading {
     width: 300px;
 }
 
-#port-12 {
+.port-12 {
     width: 100%;
+}
+
+.img-12 {
+    width: 100%;
+    height: 500px;
 }
 
 #portfolio .portfolio-item {
@@ -340,7 +345,6 @@ header.masthead .intro-text .intro-heading {
 }
 
 #portfolio .portfolio-item .portfolio-caption {
-    max-width: 400px;
     margin: 0 auto;
     padding: 25px;
     text-align: center;
