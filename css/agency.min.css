@@ -143,6 +143,7 @@ img::-moz-selection {
         "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link.focus,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #fed136;
 }
