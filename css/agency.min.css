@@ -92,20 +92,20 @@ img::-moz-selection {
     padding: 20px 40px;
 }
 .btn-primary {
-    background-color: #888888ab;
-    border-color: #969696;
+    background-color: #0000008c;
+    border-color: #fff;
 }
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-    background-color: #888888ab !important;
-    border-color: #969696 !important;
+    background-color: #0000008c !important;
+    border-color: #fff !important;
     color: #fff;
 }
-.btn-primary:active,
+/* .btn-primary:active,
 .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(254, 76, 16, 0.75) !important;
-}
+} */
 #mainNav {
     background-color: #212529;
 }
@@ -602,6 +602,7 @@ section#contact .form-group {
 section#contact .form-group input,
 section#contact .form-group textarea {
     padding: 20px;
+    background-color: #00000087;
 }
 section#contact .form-group input.form-control {
     height: auto;
