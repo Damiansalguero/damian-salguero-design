@@ -373,6 +373,7 @@ header.masthead .intro-text .intro-heading {
 .btn-portfolio {
     display: flex;
     justify-content: center;
+    margin-top: 5%;
 }
 
 @media (min-width: 767px) {
