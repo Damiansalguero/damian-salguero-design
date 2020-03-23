@@ -234,7 +234,11 @@ header.masthead .intro-text .intro-heading {
 }
 /**************************** PORTFOLIO SECTION ***************************/
 .port-img {
-    height: 217.5px;
+    height: 250px;
+}
+
+.port-img-6 {
+    height: 350px;
     width: 100%;
 }
 
@@ -242,7 +246,7 @@ header.masthead .intro-text .intro-heading {
     width: 100%;
 }
 
-.img-12 {
+.img-7 {
     width: 100%;
 }
 
