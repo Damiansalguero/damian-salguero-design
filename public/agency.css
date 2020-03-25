@@ -702,10 +702,12 @@ section#contact .form-group textarea {
 
 section#contact .form-group input.form-control {
     height: auto;
+    color: #fff;
 }
 
 section#contact .form-group textarea.form-control {
     height: 248px;
+    color: #fff;
 }
 
 section#contact .form-control:focus {
