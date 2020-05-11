@@ -34,6 +34,7 @@ app.get("/en", (req, res) => {
 });
 
 ///////////NODE + HEROKU SERVER////////////////
-if (require.main == module) {
-    app.listen(process.env.PORT || 8080, () => console.log("Listening"));
-}
+var port = process.env.PORT || 8080;
+app.listen(port, function() {
+    console.log("Server Has Started!");
+});
