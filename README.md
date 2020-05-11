@@ -8,4 +8,16 @@ My personal Portfolio Website built with [Start Bootstrap](https://startbootstra
 
 ![](/public/img/start.png "Optional Title")
 
+## Project setup
 
+```
+npm install
+```
+
+### Start the node backend server
+
+```
+node index.js
+```
+
+### 
