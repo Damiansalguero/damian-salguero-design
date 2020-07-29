@@ -17,24 +17,24 @@ app.set("view engine", "handlebars");
 //Route "Registration"//
 
 app.get("/", (req, res) => {
-    res.render("index", {
-        layout: "main"
-    });
+  res.render("index", {
+    layout: "main"
+  });
 });
 
 app.get("/de", (req, res) => {
-    res.render("german", {
-        layout: "main"
-    });
+  res.render("german", {
+    layout: "main"
+  });
 });
 
 //Route "English"
 app.get("/en", (req, res) => {
-    res.redirect("/");
+  res.redirect("/");
 });
 
 ///////////NODE + HEROKU SERVER////////////////
 var port = process.env.PORT || 8080;
 app.listen(port, function() {
-    console.log("Server Has Started!");
+  console.log("Server Has Started!");
 });
